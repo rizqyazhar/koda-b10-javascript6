@@ -124,8 +124,16 @@ console.log(newMovie);
 // .toString()
 
 const pinjam = [
-  { name: "John Doe", hutang: 50000000, sudahBayar: true },
-  { name: "Josh Doe", hutang: 5000000, sudahBayar: false },
+  {
+    name: "John Doe",
+    hutang: 50000000,
+    sudahBayar: true,
+  },
+  {
+    name: "Josh Doe",
+    hutang: 5000000,
+    sudahBayar: false,
+  },
 ];
 
 pinjam.forEach((p) => {
